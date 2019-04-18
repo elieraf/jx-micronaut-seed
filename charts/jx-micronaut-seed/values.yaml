@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.79.245.161:5000/elieraf/jx-micronaut-seed
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 env: null
 knativeDeploy: false
